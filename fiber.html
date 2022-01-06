@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <!--TITLE AND STYLESHEETS-->
+    <title>✰WELCOME TO ORINLAND!!!!✰</title>
+    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="stylesheets/lightbox.css" rel="stylesheet">
+    </head>
+    <!--HEADER IMAGE-->
+      <header>
+       <center>
+       <img src="images/orinland-header.png">
+       </center>
+    </header>
+    <body>
+      <center>
+        <!--MENU-->
+        <a href="index.html"><img src="images/navigation/home.png" width="200" height="50"></a><img src="images/navigation/flower.png" width="50" height="50">   
+        <a href="about.html"><img src="images/navigation/about.png" width="200" height="50"></a><img src="images/navigation/flower.png" width="50" height="50">     
+        <a href="gallery.html"><img src="images/navigation/gallery.png" width="200" height="50"></a><img src="images/navigation/flower.png" width="50" height="50">      
+        <a href="goodbye.html"><img src="images/navigation/goodbye.png" width="200" height="50"></a>   
+      
+          <!--BODY-->
+<div class="imgbody">
+   <main>
+   <h1>fiber/textile art</h1>
+   <center>click the image to view in gallery mode.</center><br><br>
+
+
+<img src="images/fiber/ernie.png" class="img" onclick="openModal();currentSlide(1)">
+<img src="images/fiber/smiley.png" class="img" onclick="openModal();currentSlide(2)">
+<img src="images/fiber/sky.png" class="img" onclick="openModal();currentSlide(3)">
+<img src="images/fiber/hatfront.png" class="img" onclick="openModal();currentSlide(4)">
+<img src="images/fiber/eyes.png" class="img" onclick="openModal();currentSlide(5)">
+<img src="images/fiber/jeans.png" class="img" onclick="openModal();currentSlide(6)">
+<img src="images/fiber/snake.png" class="img" onclick="openModal();currentSlide(7)">
+<img src="images/fiber/chain.png" class="img" onclick="openModal();currentSlide(8)">
+<img src="images/fiber/pool.png" class="img" onclick="openModal();currentSlide(9)">
+
+
+  </div>
+  
+<!-- MODAL -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="slides">
+      <div class="numbertext">1</div>
+      <img src="images/fiber/ernie.png" class="imgslide"><p><i>ernie</i><br>5x5 inches<br>punch needle applique<br>2020</p>
+    </div>
+
+
+    <div class="slides">
+      <div class="numbertext">2</div>
+      <img src="images/fiber/smiley.png" class="imgslide"><p><i>smiley tote</i><br>15x16 inches<br>punch needle applique on cotton tote<br>2020</p>
+    </div>
+    
+    </div>
+     <div class="slides">
+      <div class="numbertext">3</div>
+      <img src="images/fiber/sky.png" class="imgslide"><p><i>sky tote</i><br>15x16 inches<br>punch needle appliques on cotton tote<br>2020</p>
+      </div>
+     <div class="slides">
+      <div class="numbertext">4</div>
+      <img src="images/fiber/hatfront.png" class="imgslide"><p><i>smiley hat (front)</i><br>manufactured by printful<br>embroidered design on denim hat<br>2020</p>
+    </div>
+     <div class="slides">
+      <div class="numbertext">5</div>
+      <img src="images/fiber/eyes.png" class="imgslide"><p><i>eye see u</i><br>33x32 inches<br>punch needle appliques on denim jeans<br>2021</p>
+    </div>
+    
+    <div class="slides">
+      <div class="numbertext">6</div>
+      <img src="images/fiber/jeans.png" class="imgslide"><p><i>pants on fire</i><br>32x32 inches<br>punch needle appliques on denim jeans<br>2021</p>
+    </div>
+     
+      <div class="slides">
+      <div class="numbertext">7</div>
+      <img src="images/fiber/snake.png" class="imgslide"><p><i>tea time trivet</i><br>10.5x10.5 inches<br>punch needle trivet<br>2021</p>
+    </div>
+  
+  <div class="slides">
+      <div class="numbertext">8</div>
+      <img src="images/fiber/chain.png" class="imgslide"><p><i>chain t-shirt</i><br>fabric dye crayon illustration on cotton t-shirt<br>2021</p>
+    </div>
+  <div class="slides">
+      <div class="numbertext">9</div>
+      <img src="images/fiber/pool.png" class="imgslide"><p><i>pool shark pants</i><br>punch needle appliques on denim jeans<br>2021</p>
+    </div>
+
+    <!-- NEXT/PREVIOUS CONTROLS -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+  
+  <!-- LIGHTBOX JAVASCRIPT-->
+  <script src="stylesheets/lightboxscript.js">
+</script>
+  
+<!--FOOTER-->
+  <center><footer><b>&copy; orin dee 2020-2021</b></footer></center>
+  
+  </center>
+  </body>
+</html>

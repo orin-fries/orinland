@@ -1,0 +1,146 @@
+/*IMAGE STYLING*/
+.img {
+    border-radius: 25px; 
+    border: 3px dash #000;
+    padding: 5px; 
+    width: 200px; 
+    height: 250px;
+  }
+
+/*IMAGE ON HOVER*/
+  .img:hover {
+    box-shadow: 0 0 4px 3px pink;
+    opacity: 80%
+  }
+      
+    .img2 {
+     width: 300px;
+     height: 250px;
+    padding: 15px;
+ }
+      
+/*MODAL STYLING*/  
+      .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:skyblue;
+  }
+  
+
+  .modal-content {
+    position: relative;
+    background-color: skyblue;
+    opacity: 95%;
+    margin: none;
+    padding: 0;
+    width: 80%;
+    max-width: 1200px;
+  }
+
+
+/*CLOSE BUTTON STYLING*/  
+  .close {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(26, 59, 165);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /*HIDE SLIDES BY DEFAULT*/
+  .slides {
+    display: none;
+  }
+  
+  /*NEXT AND PREVIOUS BUTTONS*/
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /*PUTS THE NEXT BUTTON ON THE RIGHT SIDE*/
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+/*PUTS THE PREVIOUS BUTTON ON THE LEFT SIDE*/
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+/*NAVIGATION ARROW HOVER STYLING*/
+  .prev:hover,
+  .next:hover {
+    background-color: pink;
+  }
+  
+  /*SLIDE NUMBER TEXT STYLING*/
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* CAPTION STYLING*/
+  .caption-container {
+    text-align: center;
+    background-color: skyblue;
+    padding: 1px 16px;
+    color: black;
+    opacity: 85%;
+  }
+  
+    /*THUMBNAIL IMAGE STYLING*/
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
